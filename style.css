@@ -1,58 +1,89 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #0078D7;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  header nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  header nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  main h2 {
-    color: #0078D7;
-  }
-  
-  section {
-    margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  footer {
-    text-align: center;
-    background-color: #0078D7;
-    color: white;
-    padding: 10px 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0078D7;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+header img {
+  display: block;
+  width: 100%; /* Set image-4 to occupy full width */
+  height: auto;
+  max-height: 600px; /* Optional limit for height */
+  margin: 0 auto; /* Center the image */
+  border-bottom: 5px solid #0078D7;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: #0078D7;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+footer {
+  text-align: center;
+  background-color: #0078D7;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Services Gallery */
+.services-gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.services-gallery img {
+  max-width: 250px; /* Smaller size for gallery images */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.services-gallery img:first-child {
+  max-width: 200px;
+}
