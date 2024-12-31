@@ -1,4 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    alert("Welcome to JSP Computer Repair Services!");
-  });
-  
+  alert("Welcome to JSP Computer Repair Services!");
+});
