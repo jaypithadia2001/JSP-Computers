@@ -72,18 +72,15 @@ footer {
 /* Services Gallery */
 .services-gallery {
   display: flex;
-  gap: 10px;
-  justify-content: center;
+  flex-direction: column; /* Stack images vertically */
+  gap: 20px; /* Add space between images */
+  align-items: center; /* Center images horizontally */
   margin-bottom: 20px;
 }
 
 .services-gallery img {
-  max-width: 100px; /* Smaller size for gallery images */
+  max-width: 300px; /* Adjust size for gallery images */
   border: 2px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.services-gallery img:first-child {
-  max-width: 200px;
 }
